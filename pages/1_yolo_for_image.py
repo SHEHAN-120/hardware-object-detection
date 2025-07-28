@@ -7,11 +7,11 @@ import numpy as np
 
 
 
-st.set_page_config(page_title="Hardware Tool Kit Detection",
+st.set_page_config(page_title="Hardware Tools",
                    layout='wide',
                    page_icon='./images/object.png')
 
-st.title('Welcome to the Hardware Tool Detection App')
+st.title('Hardware Tools Recognizer')
 st.write('Please Upload Image to get detections')
 
 with st.spinner('Please wait model is loading'):
