@@ -12,7 +12,7 @@ st.set_page_config(page_title="Hardware Tools",
                    page_icon='./images/object.png')
 
 st.title('Hardware Tools Recognizer')
-st.write('Please Upload Image to get detections')
+st.write('Please Upload Hardware Tool Image')
 
 with st.spinner('Please wait model is loading'):
     yolo=YOLO_Pred(onnx_model='./best.onnx',
